@@ -49,17 +49,17 @@ Complétez ce formulaire afin de recevoir une première évaluation de votre pro
 
 <div class="field">
 <label>Nom complet</label>
-<input type="text" placeholder="Nom complet" required>
+<input type="text" name="nom" placeholder="Nom complet" required>
 </div>
 
 <div class="field">
 <label>Âge</label>
-<input type="number" placeholder="Âge" required>
+<input type="number" name="age" placeholder="Âge" required>
 </div>
 
 <div class="field">
 <label>Sexe</label>
-<select required>
+<select name="sexe" required>
 <option value="">Sélectionner</option>
 <option>Homme</option>
 <option>Femme</option>
@@ -68,27 +68,27 @@ Complétez ce formulaire afin de recevoir une première évaluation de votre pro
 
 <div class="field">
 <label>Nationalité</label>
-<input type="text" placeholder="Nationalité">
+<input type="text" name="nationalite" placeholder="Nationalité">
 </div>
 
 <div class="field">
 <label>Pays de résidence</label>
-<input type="text" placeholder="Pays">
+<input type="text" name="pays" placeholder="Pays">
 </div>
 
 <div class="field">
 <label>Ville</label>
-<input type="text" placeholder="Ville">
+<input type="text" name="ville" placeholder="Ville">
 </div>
 
 <div class="field">
 <label>Téléphone</label>
-<input type="tel" placeholder="+225...">
+<input type="tel" name="telephone" placeholder="Votre numéro de téléphone">
 </div>
 
 <div class="field">
 <label>Email</label>
-<input type="email" placeholder="nom@email.com">
+<input type="email" name="email" placeholder="nom@email.com">
 </div>
 
 </div>
@@ -112,17 +112,17 @@ Suivant →
 
 <div class="field">
 <label>Profession actuelle</label>
-<input type="text" placeholder="Ex : Électricien">
+<input type="text" name="profession" placeholder="Ex : Électricien">
 </div>
 
 <div class="field">
 <label>Années d'expérience</label>
-<input type="number" placeholder="Ex : 9">
+<input type="number" name="experience" placeholder="Ex : 9">
 </div>
 
 <div class="field">
 <label>Niveau d'études</label>
-<select>
+<select name="niveau_etudes">
 <option>Secondaire</option>
 <option>BEP/CAP</option>
 <option>Baccalauréat</option>
@@ -133,12 +133,12 @@ Suivant →
 
 <div class="field">
 <label>Diplôme obtenu</label>
-<input type="text">
+<input type="text" name="diplome">
 </div>
 
 <div class="field">
 <label>Français</label>
-<select>
+<select name="anglais">
 <option>Débutant</option>
 <option>Intermédiaire</option>
 <option>Avancé</option>
@@ -147,7 +147,7 @@ Suivant →
 
 <div class="field">
 <label>Anglais</label>
-<select>
+<select name="francais">
 <option>Débutant</option>
 <option>Intermédiaire</option>
 <option>Avancé</option>
@@ -177,7 +177,7 @@ Suivant →
 
 <div class="field">
 <label>Situation familiale</label>
-<select>
+<select name="situation_familiale">
 <option>Célibataire</option>
 <option>Marié(e)</option>
 <option>Divorcé(e)</option>
@@ -187,12 +187,12 @@ Suivant →
 
 <div class="field">
 <label>Nombre d'enfants</label>
-<input type="number" placeholder="0">
+<input type="number" name="enfants" placeholder="0">
 </div>
 
 <div class="field">
 <label>Passeport valide</label>
-<select>
+<select name="passeport">
 <option>Oui</option>
 <option>Non</option>
 </select>
@@ -200,7 +200,7 @@ Suivant →
 
 <div class="field">
 <label>Programme souhaité</label>
-<select>
+<select name="programme">
 <option>Entrée Express</option>
 <option>Permis de travail</option>
 <option>Études</option>
@@ -210,17 +210,17 @@ Suivant →
 
 <div class="field">
 <label>Province souhaitée</label>
-<input type="text" placeholder="Ontario">
+<input type="text" name="province" placeholder="Ontario">
 </div>
 
 <div class="field">
 <label>Ville souhaitée</label>
-<input type="text" placeholder="Toronto">
+<input type="text" name="ville_souhaitee" placeholder="Toronto">
 </div>
 
 <div class="field" style="grid-column:1/-1;">
 <label>Décrivez votre projet</label>
-<textarea rows="5" placeholder="Expliquez votre projet d'immigration..."></textarea>
+<textarea name="projet" rows="5" placeholder="Expliquez votre projet d'immigration..."></textarea>
 </div>
 
 </div>
